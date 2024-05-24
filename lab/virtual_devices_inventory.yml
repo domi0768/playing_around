@@ -1,0 +1,69 @@
+BE-BEDC-LAB-TYPE-A-01-VS:
+  name: "BE-BEDC-LAB-TYPE-A-01-VS"
+  cluster: "BE-BEDC-VSX-01"
+  number_of_instances: "10"
+  main_ip_address: "192.168.1.10"
+  calculate_topology: true
+  policy_package: "Standard"
+  vsid: "2"
+  interface: "leds_to VSW-VLAN3036"
+  if_ip: "10.0.0.1"
+  interfaces:
+    bond1.208: "10.255.58.0/24"
+    bond1.209: "10.255.58.0/24"
+
+BE-BEDC-LAB-TYPE-A-02-VS:
+  name: "BE-BEDC-LAB-TYPE-A-02-VS"
+  cluster: "BE-BEDC-VSX-02"
+  number_of_instances: "5"
+  main_ip_address: "192.168.1.20"
+  calculate_topology: true
+  policy_package: "Standard"
+  vsid: "3"
+  interface: "leds_to VSW-VLAN3037"
+  if_ip: "10.0.0.2"
+  interfaces:
+    bond1.210: "10.255.59.0/24"
+    bond1.211: "10.255.59.0/24"
+
+BE-BEDC-LAB-TYPE-A-03-VS:
+  name: "BE-BEDC-LAB-TYPE-A-03-VS"
+  cluster: "BE-BEDC-VSX-03"
+  number_of_instances: "8"
+  main_ip_address: "192.168.1.30"
+  calculate_topology: true
+  policy_package: "Standard"
+  vsid: "4"
+  interface: "leds_to VSW-VLAN3038"
+  if_ip: "10.0.0.3"
+  interfaces:
+    bond1.212: "10.255.60.0/24"
+    bond1.213: "10.255.60.0/24"
+
+BE-BEDC-LAB-TYPE-A-04-VS:
+  name: "BE-BEDC-LAB-TYPE-A-04-VS"
+  cluster: "BE-BEDC-VSX-04"
+  number_of_instances: "3"
+  main_ip_address: "192.168.1.40"
+  calculate_topology: true
+  policy_package: "Standard"
+  vsid: "5"
+  interface: "leds_to VSW-VLAN3039"
+  if_ip: "10.0.0.4"
+  interfaces:
+    bond1.214: "10.255.61.0/24"
+    bond1.215: "10.255.61.0/24"
+
+BE-BEDC-LAB-TYPE-A-05-VS:
+  name: "BE-BEDC-LAB-TYPE-A-05-VS"
+  cluster: "BE-BEDC-VSX-05"
+  number_of_instances: "2"
+  main_ip_address: "192.168.1.50"
+  calculate_topology: true
+  policy_package: "Standard"
+  vsid: "6"
+  interface: "leds_to VSW-VLAN3040"
+  if_ip: "10.0.0.5"
+  interfaces:
+    bond1.216: "10.255.62.0/24"
+    bond1.217: "10.255.62.0/24"
